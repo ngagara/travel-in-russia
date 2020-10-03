@@ -1,0 +1,39 @@
+.intro__text {
+  max-width: 683px;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  margin: 0;
+  padding: 0;
+  margin-top: 37px;
+}
+
+@media screen and (max-width: 1279px) {
+	.intro__text {
+    max-width: 692px;
+    margin-top: 35px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .intro__text {
+    max-width: 720px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .intro__text {
+    max-width: 343px;
+    font-size: 16px;
+    line-height: 27px;
+    margin-top: 30px;
+  }
+}
+
+@media screen and (max-width: 374px) {
+  .intro__text {
+    width: 100%;
+    line-height: 169.43%;
+
+  }
+}

@@ -1,0 +1,32 @@
+.video-item__duration {
+  position: relative;
+  z-index: 1;
+  max-width: 44px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 13px;
+  letter-spacing: 0.3em;
+  margin: 0;
+  padding: 0;
+  margin-left: 30px;
+  margin-top: 94px;
+}
+
+@media screen and (max-width: 1279px) {
+  .video-item__duration {
+    margin-top: auto;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .video-item__duration {
+    margin-left: 24px;
+    margin-top: auto;
+  }
+}
+
+@media screen and (max-width: 374px) {
+  .video-item__duration {
+    margin-left: 16px;
+  }
+}

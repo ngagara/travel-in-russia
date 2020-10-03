@@ -1,0 +1,16 @@
+.content__cover {
+  margin: 0 auto;
+  margin-top: 100px;
+}
+
+@media screen and (max-width: 375px) {
+  .content__cover {
+    margin-top: 48px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .content__cover {
+    margin-top: 64px;
+  }
+}

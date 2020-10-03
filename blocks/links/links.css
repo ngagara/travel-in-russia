@@ -1,0 +1,9 @@
+.links {
+  font-family: "Inter", Arial, sans-serif;
+  color: #FFFFFF;
+}
+
+.links:hover {
+  transition: 1s ease;
+  opacity: 0.6;
+}

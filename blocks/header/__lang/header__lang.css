@@ -1,0 +1,9 @@
+.header__lang:nth-child(1) {
+  margin-right: 18px;
+}
+
+@media screen and (max-width: 767px) {
+  .header__lang:nth-child(1) {
+    margin-right: 16px;
+  }
+}

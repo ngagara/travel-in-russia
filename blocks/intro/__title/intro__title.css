@@ -1,0 +1,17 @@
+.intro__title {
+  max-width: 683px;
+  font-weight: 900;
+  font-size: 54px;
+  line-height: 59px;
+  text-rendering: optimizeLegibility;
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 767px) {
+  .intro__title {
+    max-width: 343px;
+    font-size: 32px;
+    line-height: 35px;
+  }
+}

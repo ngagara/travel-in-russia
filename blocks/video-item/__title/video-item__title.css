@@ -1,0 +1,35 @@
+.video-item__title {
+  position: relative;
+  z-index: 1;
+  max-width: 322px;
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 39px;
+  margin: 0;
+  padding: 0;
+  margin-left: 30px;
+  margin-top: 12px;
+}
+
+@media screen and (max-width: 1023px) {
+  .video-item__title {
+    max-width: 288px;
+    font-size: 24px;
+    line-height: 26px;
+    margin-top: 8px;
+    margin-left: 24px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .video-item__title {
+    width: 295px;
+  }
+}
+
+@media screen and (max-width: 374px) {
+  .video-item__title {
+    width: 256px;
+    margin-left: 16px;
+  }
+}

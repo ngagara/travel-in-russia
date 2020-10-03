@@ -1,0 +1,16 @@
+.content__video {
+  margin: 0 auto;
+  margin-top: 100px;
+}
+
+@media screen and (max-width: 1279px) {
+  .content__video {
+    margin-top: 112px
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .content__video {
+    margin-top: 64px
+  }
+}
